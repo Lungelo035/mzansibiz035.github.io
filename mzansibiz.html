@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MzansiBiz035 - Business Ideas for all Age Groups</title>
+    <meta name="description" content="Explore age-appropriate business ideas and niches at biz035. From young entrepreneurs to adult ventures, find inspiration for your next business opportunity.">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .description {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .age-group {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .age-group-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .age-group-content {
+            display: none;
+            padding: 15px;
+        }
+        .niche {
+            margin-bottom: 15px;
+        }
+        .ideas {
+            margin-left: 20px;
+        }
+        .warning {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        #adultConfirmation {
+            display: none;
+            background-color: rgba(0,0,0,0.8);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+        }
+        #adultConfirmationContent {
+            background-color: #fff;
+            width: 300px;
+            padding: 20px;
+            margin: 100px auto;
+            text-align: center;
+            border-radius: 5px;
+        }
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>biz035 - Business Ideas by Age Group</h1>
+    <p class="description">Welcome to biz035, your go-to resource for age-appropriate business ideas and niches. Whether you're a young entrepreneur or an experienced adult looking for new ventures, we've got inspiration for your next business opportunity. Explore our curated list of ideas tailored to different age groups and start your entrepreneurial journey today!</p>
+    
+    <div class="age-group">
+        <div class="age-group-header" onclick="toggleAgeGroup(this)">
+            <h2>Age 10-12</h2>
+        </div>
+        <div class="age-group-content">
+            <div class="niche">
+                <h3>1. Crafts and DIY</h3>
+                <ul class="ideas">
+                    <li>Handmade jewelry</li>
+                    <li>Painted rocks</li>
+                    <li>Friendship bracelets</li>
+                    <li>Origami creations</li>
+                    <li>Custom bookmarks</li>
+                    <li>Decorated picture frames</li>
+                    <li>Slime making</li>
+                    <li>Tie-dye t-shirts</li>
+                    <li>Homemade soap</li>
+                    <li>Customized phone cases</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>2. Pet Services</h3>
+                <ul class="ideas">
+                    <li>Dog walking</li>
+                    <li>Pet sitting</li>
+                    <li>Fish tank cleaning</li>
+                    <li>Homemade pet treats</li>
+                    <li>Pet toy making</li>
+                    <li>Pooper scooper service</li>
+                    <li>Pet grooming assistance</li>
+                    <li>Cat socialization</li>
+                    <li>Pet photography</li>
+                    <li>Dog training assistance</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>3. Yard Work</h3>
+                <ul class="ideas">
+                    <li>Lawn mowing</li>
+                    <li>Leaf raking</li>
+                    <li>Garden weeding</li>
+                    <li>Flower planting</li>
+                    <li>Car washing</li>
+                    <li>Snow shoveling</li>
+                    <li>Watering plants</li>
+                    <li>Composting service</li>
+                    <li>Holiday light installation</li>
+                    <li>Vegetable garden tending</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>4. Technology Help</h3>
+                <ul class="ideas">
+                    <li>Basic computer tutoring</li>
+                    <li>Smartphone app explanation</li>
+                    <li>Social media setup</li>
+                    <li>Photo organization</li>
+                    <li>Email management</li>
+                    <li>Online safety education</li>
+                    <li>Video game coaching</li>
+                    <li>Digital art creation</li>
+                    <li>Basic coding lessons</li>
+                    <li>Typing practice sessions</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>5. Entertainment</h3>
+                <ul class="ideas">
+                    <li>Face painting</li>
+                    <li>Balloon animal making</li>
+                    <li>Magic shows</li>
+                    <li>Puppet shows</li>
+                    <li>Storytelling</li>
+                    <li>Karaoke hosting</li>
+                    <li>Dance performances</li>
+                    <li>Juggling shows</li>
+                    <li>Talent show organizing</li>
+                    <li>Holiday character impersonation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="age-group">
+        <div class="age-group-header" onclick="toggleAgeGroup(this)">
+            <h2>Age 13-15</h2>
+        </div>
+        <div class="age-group-content">
+            <div class="niche">
+                <h3>1. Social Media Management</h3>
+                <ul class="ideas">
+                    <li>Instagram account management</li>
+                    <li>TikTok content creation</li>
+                    <li>YouTube channel assistance</li>
+                    <li>Twitter post scheduling</li>
+                    <li>Facebook page moderation</li>
+                    <li>Pinterest board curation</li>
+                    <li>Social media analytics reporting</li>
+                    <li>Hashtag research</li>
+                    <li>Engagement boosting strategies</li>
+                    <li>Social media contest organization</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>2. Online Tutoring</h3>
+                <ul class="ideas">
+                    <li>Math tutoring</li>
+                    <li>Language lessons</li>
+                    <li>Science homework help</li>
+                    <li>Essay writing assistance</li>
+                    <li>Test preparation</li>
+                    <li>Music theory tutoring</li>
+                    <li>Coding lessons</li>
+                    <li>Art technique tutorials</li>
+                    <li>Study skills coaching</li>
+                    <li>Reading comprehension help</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>3. Digital Art and Design</h3>
+                <ul class="ideas">
+                    <li>Logo design</li>
+                    <li>Social media graphics</li>
+                    <li>Digital illustrations</li>
+                    <li>Meme creation</li>
+                    <li>Animated GIFs</li>
+                    <li>Podcast cover art</li>
+                    <li>YouTube thumbnail design</li>
+                    <li>Twitch overlay graphics</li>
+                    <li>Digital card making</li>
+                    <li>Simple website graphics</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>4. Gaming and Esports</h3>
+                <ul class="ideas">
+                    <li>Game streaming</li>
+                    <li>Gaming tutorials</li>
+                    <li>Esports team management</li>
+                    <li>Gaming channel moderation</li>
+                    <li>Game testing</li>
+                    <li>Gaming tournament organization</li>
+                    <li>Gaming gear reviews</li>
+                    <li>Gaming strategy guides</li>
+                    <li>In-game coaching</li>
+                    <li>Gaming highlight reel creation</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>5. Eco-friendly Products</h3>
+                <ul class="ideas">
+                    <li>Upcycled fashion accessories</li>
+                    <li>Reusable produce bags</li>
+                    <li>Beeswax food wraps</li>
+                    <li>Eco-friendly school supplies</li>
+                    <li>Biodegradable phone cases</li>
+                    <li>Recycled paper products</li>
+                    <li>Sustainable gift wrapping</li>
+                    <li>Eco-friendly party supplies</li>
+                    <li>Handmade natural soaps</li>
+                    <li>Refillable beauty products</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="age-group">
+        <div class="age-group-header" onclick="toggleAgeGroup(this)">
+            <h2>Age 16-18</h2>
+        </div>
+        <div class="age-group-content">
+            <div class="niche">
+                <h3>1. E-commerce</h3>
+                <ul class="ideas">
+                    <li>Dropshipping store</li>
+                    <li>Print-on-demand services</li>
+                    <li>Handmade crafts online shop</li>
+                    <li>Vintage clothing resale</li>
+                    <li>Digital product marketplace</li>
+                    <li>Subscription box service</li>
+                    <li>Niche product affiliate marketing</li>
+                    <li>Local artisan products online store</li>
+                    <li>Customized gift baskets</li>
+                    <li>Eco-friendly product curation</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>2. Content Creation</h3>
+                <ul class="ideas">
+                    <li>YouTube channel</li>
+                    <li>Podcasting</li>
+                    <li>Blog writing</li>
+                    <li>Instagram influencing</li>
+                    <li>TikTok content creation</li>
+                    <li>Twitch streaming</li>
+                    <li>Freelance writing</li>
+                    <li>Stock photography</li>
+                    <li>Audiobook narration</li>
+                    <li>Video editing services</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>3. Tech Services</h3>
+                <ul class="ideas">
+                    <li>Web design</li>
+                    <li>App development</li>
+                    <li>IT support</li>
+                    <li>Cybersecurity consulting</li>
+                    <li>3D printing services</li>
+                    <li>Smart home setup</li>
+                    <li>Data entry</li>
+                    <li>Virtual reality experiences</li>
+                    <li>Drone photography/videography</li>
+                    <li>Tech repair services</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>4. Freelance Services</h3>
+                <ul class="ideas">
+                    <li>Graphic design</li>
+                    <li>Social media management</li>
+                    <li>Virtual assistance</li>
+                    <li>Translation services</li>
+                    <li>Voice-over work</li>
+                    <li>Proofreading and editing</li>
+                    <li>Online research</li>
+                    <li>Transcription services</li>
+                    <li>Resume writing</li>
+                    <li>Logo design</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>5. Event Planning</h3>
+                <ul class="ideas">
+                    <li>Virtual event coordination</li>
+                    <li>Birthday party planning</li>
+                    <li>Graduation celebration services</li>
+                    <li>Local tour guiding</li>
+                    <li>Teen-focused workshops</li>
+                    <li>Holiday decoration services</li>
+                    <li>Themed party supplies rental</li>
+                    <li>School dance organization</li>
+                    <li>Sports event management</li>
+                    <li>Music festival volunteering</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="age-group">
+        <div class="age-group-header" onclick="confirmAdult(this)">
+            <h2>Age 18+</h2>
+        </div>
+        <div class="age-group-content">
+            <div class="niche">
+                <h3>1. Professional Services</h3>
+                <ul class="ideas">
+                    <li>Consulting</li>
+                    <li>Life coaching</li>
+                    <li>Financial planning</li>
+                    <li>Legal services</li>
+                    <li>Business coaching</li>
+                    <li>Career counseling</li>
+                    <li>Marketing strategy</li>
+                    <li>Public speaking</li>
+                    <li>Executive coaching</li>
+                    <li>Human resources consulting</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>2. Health and Wellness</h3>
+                <ul class="ideas">
+                    <li>Personal training</li>
+                    <li>Nutrition counseling</li>
+                    <li>Yoga instruction</li>
+                    <li>Meditation coaching</li>
+                    <li>Massage therapy</li>
+                    <li>Acupuncture</li>
+                    <li>Herbal medicine</li>
+                    <li>Fitness app development</li>
+                    <li>Wellness retreat planning</li>
+                    <li>Corporate wellness programs</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>3. Real Estate</h3>
+                <ul class="ideas">
+                    <li>Property management</li>
+                    <li>Real estate investing</li>
+                    <li>Home staging</li>
+                    <li>Real estate photography</li>
+                    <li>Vacation rental management</li>
+                    <li>Real estate app development</li>
+                    <li>Home inspection services</li>
+                    <li>Real estate marketing</li>
+                    <li>Mortgage brokerage</li>
+                    <li>Commercial real estate consulting</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>4. Food and Beverage</h3>
+                <ul class="ideas">
+                    <li>Catering services</li>
+                    <li>Food truck</li>
+                    <li>Specialty food production</li>
+                    <li>Wine tasting events</li>
+                    <li>Craft brewery</li>
+                    <li>Meal prep services</li>
+                    <li>Cooking classes</li>
+                    <li>Restaurant consulting</li>
+                    <li>Food blog/vlog</li>
+                    <li>Farmers market vendor</li>
+                </ul>
+            </div>
+            <div class="niche">
+                <h3>5. Adult-oriented Services (18+)</h3>
+                <ul class="ideas">
+                    <li>Adult education courses</li>
+                    <li>Relationship coaching</li>
+                    <li>Dating app development</li>
+                    <li>Adult entertainment venues</li>
+                    <li>Boudoir photography</li>
+                    <li>Adult toy retail</li>
+                    <li>Lingerie design</li>
+                    <li>Adult literature publishing</li>
+                    <li>Couples retreat planning</li>
+                    <li>Adult-themed event planning</li>
+                    <li><span class="warning">Note: Some adult-only business ideas may involve sensitive content.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="adultConfirmation">
+        <div id="adultConfirmationContent">
+            <h3>Age Verification</h3>
+            <p>Are you 18 years or older?</p>
+            <button onclick="showAdultContent(true)">Yes</button>
+            <button onclick="showAdultContent(false)">No</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 biz035. All rights reserved. | Website created by Lungelo Shandu</p>
+    </footer>
+
+    <script>
+        function toggleAgeGroup(header) {
+            var content = header.nextElementSibling;
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+
+        function confirmAdult(header) {
+            document.getElementById('adultConfirmation').style.display = 'block';
+            window.currentHeader = header;
+        }
+
+        function showAdultContent(isAdult) {
+            document.getElementById('adultConfirmation').style.display = 'none';
+            if (isAdult) {
+                toggleAgeGroup(window.currentHeader);
+            } else {
+                alert("Sorry, this content is only for adults.");
+            }
+        }
+    </script>
+</body>
+</html>
